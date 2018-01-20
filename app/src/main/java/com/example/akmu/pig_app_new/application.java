@@ -30,6 +30,7 @@ public class application extends Application {
         System.out.println("hello 5 new ");
 
         System.out.println("hello 6 new ");
+        System.out.println("hello 7 new ");
 
     }
 }
