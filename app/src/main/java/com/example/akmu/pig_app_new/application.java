@@ -29,5 +29,7 @@ public class application extends Application {
         System.out.println("hello 4 new ");
         System.out.println("hello 5 new ");
 
+        System.out.println("hello 6 new ");
+
     }
 }
