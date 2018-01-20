@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+      >
+          <Button
+               android:layout_marginTop="57dp"
+              android:layout_height="55sp"
+              android:layout_marginBottom="10dp"
+              android:textSize="20sp"
+              android:textColor="#ffffff"
+              android:background="@color/orange"
+               android:layout_width="match_parent"
+               android:gravity="center"
+               android:id="@+id/text1"
+              />
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:id="@+id/point_1_text"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@color/orange"
+            android:text="प्रतिवर्ष शूकरों का विक्रय (हर्ड प्रोजेक्शन)"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:id="@+id/point_2_text"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@color/orange"
+            android:text="आर्थिक विश्लेषण"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:id="@+id/point_3_text"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@color/orange"
+            android:text="नकदी प्रवाह विश्लेषण"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:id="@+id/point_4_text"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@color/orange"
+            android:text="श्रृण भुगतान अनुसूची"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:id="@+id/point_5_text"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@color/orange"
+            android:text="आर्थिक मूल्यांकन"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+
+</ScrollView>

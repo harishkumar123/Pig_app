@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+      >
+     <!--   <TextView
+            android:layout_marginTop="70dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/text1"/>-->
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_height="55sp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/text1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <WebView
+            android:id="@+id/webViewSa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </WebView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+       <!-- <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/text2"/>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <WebView
+            android:id="@+id/webViewKP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </WebView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:id="@+id/imageViewSA"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+
+</ScrollView>

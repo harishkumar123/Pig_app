@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/second1"
+        android:icon="@drawable/bullet"
+        android:title="एप्प के बारे में जानिए" />
+
+    <item
+        android:icon="@drawable/bullet"
+        android:id="@+id/first"
+        android:title="शूकर पालन का महत्व   " />
+    <item
+        android:id="@+id/second"
+        android:icon="@drawable/bullet"
+        android:title="शूकर की प्रमुख नस्लें" />
+    <item
+        android:id="@+id/three"
+        android:icon="@drawable/bullet"
+        android:title="शूकर आवास प्रबन्धन" />
+    <item
+        android:id="@+id/four"
+        android:icon="@drawable/bullet"
+        android:title="शूकर आहार व्यवस्था" />
+    <item
+        android:id="@+id/five"
+        android:icon="@drawable/bullet"
+        android:title="शूकर प्रजनन" />
+
+    <item
+        android:id="@+id/six"
+        android:icon="@drawable/bullet"
+        android:title=" शूकरों का रख-रखाव" />
+    <item
+        android:id="@+id/seven"
+        android:icon="@drawable/bullet"
+        android:title=" शूकर रोग" />
+    <item
+        android:id="@+id/eight"
+        android:icon="@drawable/bullet"
+        android:title=" शूकर फार्म के दैनिक कार्यक्रम" />
+    <item
+        android:id="@+id/nine"
+        android:icon="@drawable/bullet"
+        android:title="फार्म पर समस्यायें, कारण एवं  सुझाव " />
+    <item
+        android:id="@+id/ten"
+        android:icon="@drawable/bullet"
+        android:title="शूकरों की बिक्री " />
+    <item
+        android:id="@+id/eleven"
+        android:icon="@drawable/bullet"
+        android:title=" क्या करें, क्या न करें" />
+    <item
+        android:id="@+id/tweleve"
+        android:icon="@drawable/bullet"
+        android:title="शूकर पालन प्रश्नोत्तरी" />
+    <item
+        android:id="@+id/point_thirteen"
+        android:icon="@drawable/bullet"
+        android:title="शूकर पालन प्रोजेक्ट" />
+    <item
+        android:id="@+id/eighteen"
+        android:icon="@drawable/bullet"
+        android:title="प्रोजेक्ट टीम " />
+    <item
+        android:id="@+id/ninteen"
+        android:icon="@drawable/bullet"
+        android:title="विशेष आभार " />
+    <item
+        android:id="@+id/link"
+        android:icon="@drawable/bullet"
+        android:title="वेबसाइट लिंक" />
+    <item
+        android:id="@+id/address"
+        android:icon="@drawable/bullet"
+        android:title="पता" />
+    <item
+        android:id="@+id/helpline"
+        android:icon="@drawable/bullet"
+        android:title="हेल्पलाइन" />
+    <item
+        android:id="@+id/university"
+        android:icon="@drawable/bullet"
+        android:title="@string/menu_item" />
+
+
+</menu>

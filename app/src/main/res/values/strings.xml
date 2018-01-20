@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pig app</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_activity">Splash_activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="menu_item">निकट स्थित राजकीय कृषि एवं पशु चिकित्सा विष्वविद्यालय </string>
+    <string name="title_activity_disease_activity">Disease_activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main6">Main6Activity</string>
+    <string name="title_activity_main_sixth_fragment">Main_sixth_fragment</string>
+    <string name="title_activity_main12_activity">Main12_activity</string>>
+</resources>

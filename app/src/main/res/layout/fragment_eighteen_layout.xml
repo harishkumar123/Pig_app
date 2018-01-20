@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+         <!--   <TextView
+                android:id="@+id/TextWAWHdng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="20dp"
+                android:textSize="25sp"
+                android:textColor="@color/color_dark"
+                android:gravity="center"
+                android:text="" />
+-->    <Button
+            android:id="@+id/TextWAWHdng"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@color/orange"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:text="" />
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/webViewteamname"
+                android:layout_gravity="center_horizontal" />
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+
+                android:id="@+id/webViewteamname1"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

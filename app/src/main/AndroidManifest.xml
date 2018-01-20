@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akmu.pig_app_new">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <permission
+        android:name="com.example.akmu.pig_app.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".application"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!--
+         android:configChanges="orientation|screenSize|keyboardHidden"
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <!--
+            <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBxQBYX9tAg4uufFjeLDMnsUkn5-HevfhM" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Disease_activity"
+            android:label="@string/title_activity_disease_activity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/MyTheme1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SantulitAahaar"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".PaniAvshykta"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".KamLagatShukarAaahar"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".ProjectOneActivity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".ProjectTwoActivity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".ProjectThreeActivity"
+            android:parentActivityName=".ProjectOneActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectOneActivity" />
+        </activity>
+        <activity
+            android:name=".ProjectFourActivity"
+            android:parentActivityName=".ProjectOneActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectOneActivity" />
+        </activity>
+        <activity
+            android:name=".ProjectOneSubActivity"
+            android:parentActivityName=".ProjectOneActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectOneActivity" />
+        </activity>
+        <activity
+            android:name=".ProjectTwoOneActivity"
+            android:parentActivityName=".ProjectOneActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectOneActivity" />
+        </activity>
+        <activity
+            android:name=".Main3Activity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/MyTheme1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".Main6Activity"
+            android:label="@string/title_activity_main6"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/MyTheme1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".Main_sixth_fragment"
+            android:label="@string/title_activity_main_sixth_fragment"
+            android:parentActivityName=".Main_sixth_fragment"
+            android:theme="@style/MyTheme1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main_sixth_fragment" />
+        </activity>
+        <activity
+            android:name=".Main12_activity"
+            android:label="@string/title_activity_main12_activity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/MyTheme1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+    </application>
+
+</manifest>
