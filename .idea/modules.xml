@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Pig_app.iml" filepath="$PROJECT_DIR$/Pig_app.iml" />
-      <module fileurl="file://C:\Users\AKMU-LAB\Desktop\Pig_app\.idea\Pig_app.iml" filepath="C:\Users\AKMU-LAB\Desktop\Pig_app\.idea\Pig_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Pig_app.iml" filepath="$PROJECT_DIR$/.idea/Pig_app.iml" />
+      <module fileurl="file://E:\github\Pig_app\Pig_app.iml" filepath="E:\github\Pig_app\Pig_app.iml" />
       <module fileurl="file://C:\Users\akmu\Desktop\github\Pig_app\Pig_app.iml" filepath="C:\Users\akmu\Desktop\github\Pig_app\Pig_app.iml" />
+      <module fileurl="file://C:\Users\AKMU-LAB\Desktop\Pig_app\.idea\Pig_app.iml" filepath="C:\Users\AKMU-LAB\Desktop\Pig_app\.idea\Pig_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\github\Pig_app\app\app.iml" filepath="E:\github\Pig_app\app\app.iml" />
       <module fileurl="file://C:\Users\akmu\Desktop\github\Pig_app\app\app.iml" filepath="C:\Users\akmu\Desktop\github\Pig_app\app\app.iml" />
     </modules>
   </component>
